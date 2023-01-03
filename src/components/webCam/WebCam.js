@@ -65,7 +65,7 @@ const WebCam = () => {
         <button className="bg-yellow-700 hover:bg-gray-500 text-white font-bold py-2 px-4 border border-blue-700 rounded" onClick={handleStartCaptureClick}>Start Capture</button>
       )}
       {recordedChunks.length > 0 && (
-        <button onClick={handleDownload} className="bg-red-600 hover:bg-green-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Download</button>
+        <button onClick={handleDownload} className="bg-red-600 hover:bg-green-900 text-white font-bold py-2 px-4 border border-blue-700 rounded">Download</button>
       )}
      </div>
         </div>
